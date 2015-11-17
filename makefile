@@ -3,6 +3,34 @@ CFLAGS=-Wall -Wextra -Wpedantic -std=c11
 CXX=g++
 CXXFLAGS=-Wall -Wextra -Wpedantic -std=c++11
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 all:
 	mkdir crackme
 
@@ -41,7 +69,7 @@ all:
 	@# The next password is hardcoded inside jumper - it is "kkthxbye".
 	@$(CXX) $(CXXFLAGS) -DWELCOME="\"cr4ckm3 level 7. enjoy\"" src/jumper.cpp -o crackme/jumper
 	
-	@# LEVEL 9 - this is just an end
+	@# LEVEL 8 - this is just an end
 	@$(CXX) $(CXXFLAGS) src/kkthxbye.cpp -o crackme/kkthxbye
 	
 	@chmod 111 crackme/*
@@ -54,10 +82,10 @@ all:
 
 	@chmod 111 crackme
 	
-	@echo "Cr4ckm3 prepared by Dominik Czarnota & Dariusz Zielinski"
+	@echo "Cr4ckm3 made by Dominik Czarnota & Dariusz Zielinski"
 	@echo "for univeristy classes at AGH University of Science and Technology in Cracow"
 	@echo "----------------------------------------------------------------------------"
-	@echo "The exercises are pretty easy, you need to use tools like strings, strace, gdb or g++/clang++ sanitizers"
+	@echo "The exercises are pretty easy, you need to use tools like strings, strace, gprof, gdb or g++/clang++ sanitizers"
 	@echo "The sanitizers exercise was tested on g++ 5.2 or clang++-3.5"
 	@echo "If you want to play, here are some rules:"
 	@echo " * do not look into makefile or src sources"
