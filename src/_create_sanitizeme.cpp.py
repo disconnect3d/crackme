@@ -60,10 +60,13 @@ std::string decode(int* encoded_string, int keys_offset, int keys_used, int str_
 
 int main()
 {
-    cout << "Decoding messages:" << endl;"""
-)
+""")
 
 print('    cout << "{}" << endl;'.format(os.environ.get('WELCOME', 'cr4ckm3. enjoy')))
+print('    cout << "In this level, there\'s something wrong with decoding messages - you have to find the issue and fix code." << endl;')
+print('    cout << "You can find the issue with g++/clang++ sanitizers. For more info check man or documentation." << endl;')
+print('    cout << "Example usage of sanitizers: g++ -fsanitize=address <source_file>" << endl;')
+print("    cout << "Decoding messages:" << endl;")
 print("    cout << decode(first, {}, {}, {}) << endl;".format(keys_length - first_keys_used, first_keys_used, len(first))); 
 print("    cout << decode(second, {}, {}, {}) << endl;".format(keys_length - second_keys_used, second_keys_used, len(second))); 
 print("    cout << decode(last, {}, {}, {}) << endl;".format(keys_length - last_keys_used, last_keys_used+1, len(last))); 
