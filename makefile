@@ -32,7 +32,7 @@ CXXFLAGS=-Wall -Wextra -Wpedantic -std=c++11
 
 
 all:
-	mkdir crackme
+	mkdir -p crackme
 
 	@chmod 755 crackme
 
