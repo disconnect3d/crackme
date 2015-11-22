@@ -33,7 +33,7 @@ Level 2 - `strace`, knowledge of file descriptors (and which file descriptors ar
 
 Level 3 - `strace` (did you know that you can read about syscall using `man`? e.g. `man 2 read`)
 
-Level 4 - one of `g++` / `clang++` sanitizer (refer to `man g++` or read up documentation)
+Level 4 - one of `g++` / `clang++` sanitizer (refer to `man g++` or read up documentation) should tell you what's wrong; you have to fix the program in here (so yeah, `cp` the source, change something and recompile)
 
 Level 5 - `strace`
 
