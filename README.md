@@ -2,7 +2,7 @@
 
 Cr4ckm3 is a small cracking game in which you search for password by using "unusual" [debugging] tools.
 
-The exercises are pretty easy, you need to use tools like `strings`, `strace`, `gdb`, `gpof` or `g++`/`clang++` sanitizers.
+The exercises are pretty easy, you need to use tools like `strings`, `strace`, `gdb`, `gprof` or `g++`/`clang++` sanitizers.
 
 
 # Rules
