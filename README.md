@@ -4,6 +4,7 @@ Cr4ckm3 is a small cracking game in which you search for password by using "unus
 
 The exercises are pretty easy, you need to use tools like `strings`, `strace`, `gdb`, `gprof` or `g++`/`clang++` sanitizers.
 
+**NOTE: This should REALLY be a Docker container. If you mind to create one, simply create a Pull Request! ;)**
 
 # Rules
 
