@@ -21,7 +21,7 @@ The password you will find is the next level file name (so if you find `password
 
 # Authors
 
-The game was made by Dominik Czarnota & Dariusz Zielinski for univeristy classes at AGH University of Science and Technology in Cracow.
+The game was made by Dominik Czarnota & Dariusz Zielinski for university classes at AGH University of Science and Technology in Cracow.
 
 
 # Hints/tools needed for particular level
