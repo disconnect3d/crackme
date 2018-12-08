@@ -6,10 +6,16 @@ The exercises are pretty easy, you need to use tools like `strings`, `strace`, `
 
 # Docker build instructions
 
-To make sure you have all the right versions of all the required tools, there is a Docker build file. To build the Docker image and play the game, run the following:
+To make sure you have all the right versions of all the required tools, there is a Docker build file. To build the Docker image:
 ```bash
-docker build -t crackme .
-docker run -it crackme
+bash ./docker/build.sh
+```
+
+... and play the game, run the following:
+```bash
+bash ./docker/run.sh
+# now you're in the container
+cat README.md # to see instructions
 cd crackme/
 ls # you'll see all the challenges here
 ```

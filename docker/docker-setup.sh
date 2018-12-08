@@ -1,4 +1,5 @@
 #!/bin/bash
+# script to be run inside the docker container during build, don't run this directly
 set -e
 apt-get update
 apt-get --assume-yes install \
@@ -25,5 +26,4 @@ rm -rf \
 rm -r \
  docker-setup.sh \
  Makefile \
- Dockerfile \
  src
