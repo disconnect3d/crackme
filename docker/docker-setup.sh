@@ -11,9 +11,15 @@ apt-get --assume-yes install \
   gdb \
   strace \
   clang \
-  make
-# FIXME include any other required tools
+  make \
+  vim
+
 make
+
+# for the fork challenge
+cd crackme/
+ln -s . crackme
+
 apt-get --assume-yes purge \
   wget \
   unzip
@@ -22,8 +28,7 @@ apt-get --assume-yes clean
 rm -rf \
  /var/lib/apt/lists/* \
  /tmp/* \
- /var/tmp/*
-rm -r \
+ /var/tmp/* \
  docker-setup.sh \
  Makefile \
  src
